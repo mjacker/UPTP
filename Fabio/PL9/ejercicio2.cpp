@@ -11,6 +11,8 @@ int main(void){
 	polynomial(x);
 	//y=polynomial(x);
 	//printf("\n The result is: %d",y);
+	
+	printf("Hola, estoy corrigiendo qui tu codigo, prueba.");
 	return 0;
 }
 void polynomial(int x){
