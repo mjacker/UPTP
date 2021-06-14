@@ -1,5 +1,4 @@
-#include <stdboll.h>
-
+#include <stdboll.h> /* C99 only*/
 #define STACK_SIZE 100
 
 /*external variables*/
