@@ -7,6 +7,7 @@ int main(void){
 	printf("\nPlease enter value for b: ");scanf("%d", &b);
 	//a=1701;b=3768; //this is an example.
 	
+	
 	printf("\n\n\tThe gcd of (%d, %d) is %d", a, b, gdc(a, b));
 }
 
