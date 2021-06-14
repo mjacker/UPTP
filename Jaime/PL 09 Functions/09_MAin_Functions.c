@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 double average(double a, double b);
+int sum_array(int v[], int n);
+int bool_odd_even(int v[], int n);
 
 int main(void){
 	//##########################
@@ -40,7 +42,11 @@ int main(void){
 	printf("_____________________\n");
 	int a[]={1, 2, 3, 4, 5, 6};
 	
-	printf("Sum array: %d", sum_array(a, sizeof(a)/sizeof(a[0])));
+	printf("\nSum array: %d", sum_array(a, sizeof(a)/sizeof(a[0])));
+	
+	printf("\nodd or even?: %d", bool_odd_even(a, sizeof(a)/sizeof(a[0])));
+	
+	
 	
 	
 	//##########################
@@ -59,4 +65,10 @@ int sum_array(int v[], int n){
 	int i, sum = 0;
 	for (i=0; i<n;i++) sum += v[i];
 	return sum;
+}
+
+int bool_odd_even(int v[], int n){
+	int i, sum = 0;
+	for (i=0; i<n;i++) sum += v[i];
+	return sum % 2 ? 1: 0;
 }
