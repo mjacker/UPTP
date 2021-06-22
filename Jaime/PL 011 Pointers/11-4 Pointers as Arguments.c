@@ -22,7 +22,7 @@ void max_min(int Array[], int n, int *max, int *min){
 	*min = Array[0];
 	for(i = 0; i < n; i++)
 	{
-		Array[i] > *max ? *max = Array[i] : "" ;
-		Array[i] < *min ? *min = Array[i] : "" ;
+		Array[i] > *max ? *max = Array[i] : 0 ;
+		Array[i] < *min ? *min = Array[i] : 0 ;
 	}
 }
